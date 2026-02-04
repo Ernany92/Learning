@@ -1,4 +1,7 @@
-# Sistema de Cadastro Simples em Python
+# Sistema de Cadastro Simples
+# Autor: Ernany Verruck
+# Descrição: Programa para cadastrar, listar e remover pessoas
+
 
 ## 📌 Descrição
 Este projeto é um sistema simples desenvolvido em Python com o objetivo de praticar os principais conceitos aprendidos em aula, como estruturas de repetição, estruturas condicionais e uso de listas.
