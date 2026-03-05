@@ -18,7 +18,37 @@ Um dashboard interativo de inteligência de ameaças cibernéticas desenvolvido 
 - [Requests](https://requests.readthedocs.io/) - Consumo de APIs REST.
 - [Open-Meteo API](https://open-meteo.com/) - Validação de conectividade de rede.
 
-## 📦 Como rodar o projeto
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/cyber-monitor-pro.git](https://github.com/SEU_USUARIO/cyber-monitor-pro.git)
+💻 Como Instalar e Rodar (Uso Local Gratuito)
+Este programa foi projetado para rodar diretamente na sua máquina. Siga os passos abaixo:
+
+"Crie uma pasta e cole o codigo disponível"
+
+1. Preparação do Ambiente
+Certifique-se de ter o Python instalado em seu computador. No terminal, navegue até a pasta do projeto e instale as dependências:
+Digite o comando: pip install -r requirements.txt
+
+2. Criando o "Bot" de Inicialização (Windows)
+Para abrir o programa com apenas dois cliques, sem precisar digitar comandos no terminal:
+
+Dentro da pasta do projeto, crie um novo arquivo de texto chamado Rodar_Monitor.bat.
+
+Clique com o botão direito nele, selecione Editar e cole o seguinte código: 
+@echo off
+streamlit run main.py
+pause
+
+Salve e feche o arquivo.
+
+3. Criando Atalho na Área de Trabalho
+Para facilitar ainda mais o acesso:
+
+Clique com o botão direito no arquivo Rodar_Monitor.bat que você criou.
+
+Selecione Enviar para > Área de Trabalho (criar atalho).
+
+Agora, sempre que quiser iniciar seu monitor de ataques, basta usar o ícone na sua área de trabalho!
+
+📝 Notas de Versão
+O software é 100% gratuito para execução local.
+
+Requer conexão com a internet para carregar os feeds de IPs em tempo real.
