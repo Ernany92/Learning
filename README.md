@@ -23,7 +23,7 @@ Este programa foi projetado para rodar diretamente na sua máquina. Siga os pass
 
 Salve os arquivos disponíveis.
 
-"Crie uma pasta e cole o codigo disponível"
+"Crie uma pasta e cole o codigo"
 
 1. Preparação do Ambiente
 Certifique-se de ter o Python instalado em seu computador. No terminal, navegue até a pasta do projeto e instale as dependências:
@@ -54,4 +54,5 @@ Agora, sempre que quiser iniciar seu monitor de ataques, basta usar o ícone na 
 O software é 100% gratuito para execução local.
 
 Requer conexão com a internet para carregar os feeds de IPs em tempo real.
+
 
