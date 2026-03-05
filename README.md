@@ -1,38 +1,24 @@
-# Repositório de Estudos em Programação
+# 📡 Cyber Threat Monitor PRO
 
-Este repositório contém diversos códigos e projetos desenvolvidos
-durante meus estudos em programação, com foco inicial em **Python**.
+Um dashboard interativo de inteligência de ameaças cibernéticas desenvolvido em Python. O sistema mapeia tentativas de ataques em tempo real ao redor do mundo, utilizando feeds de dados reais da comunidade de segurança.
 
-O objetivo é praticar lógica de programação, estruturas básicas,
-funções, organização de código e versionamento com Git e GitHub.
+![Demonstração do Projeto](https://img.shields.io/badge/Status-Ativo-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
 
----
+## 🚀 Funcionalidades
+- **Live Feed:** Conexão com a API DShield (SANS Institute) para rastrear IPs maliciosos ativos.
+- **Globo Interativo:** Visualização geoespacial 3D usando Plotly com projeção ortográfica.
+- **Análise por Alvo:** Seleção dinâmica de países para monitoramento de tráfego.
+- **Logs de Eventos:** Painel de console simulando registros de SOC (Security Operations Center).
+- **Resiliência de Rede:** Sistema de fallback automático para garantir a operação mesmo sob bloqueios de firewall.
 
-## 📂 Conteúdo do repositório
+## 🛠️ Tecnologias Utilizadas
+- [Streamlit](https://streamlit.io/) - Framework para a interface web.
+- [Plotly](https://plotly.com/python/) - Gráficos e mapas interativos.
+- [Requests](https://requests.readthedocs.io/) - Consumo de APIs REST.
+- [Open-Meteo API](https://open-meteo.com/) - Validação de conectividade de rede.
 
-Os arquivos podem incluir, entre outros:
-
-- Exercícios de lógica de programação
-- Programas com menu interativo
-- Cálculo de médias, condições e laços de repetição
-- Uso de funções
-- Projetos simples para prática
-
-Cada arquivo representa um exercício ou pequeno projeto independente.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- Python 3
-- Git & GitHub
-
----
-
-## ▶️ Como executar os códigos
-
-1. Clone o repositório ou faça o download dos arquivos
-2. Certifique-se de ter o Python 3 instalado
-3. Execute o arquivo desejado pelo terminal ou editor:
+## 📦 Como rodar o projeto
+1. Clone o repositório:
    ```bash
-   python nome_do_arquivo.py
+   git clone [https://github.com/SEU_USUARIO/cyber-monitor-pro.git](https://github.com/SEU_USUARIO/cyber-monitor-pro.git)
