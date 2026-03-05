@@ -21,6 +21,8 @@ Um dashboard interativo de inteligência de ameaças cibernéticas desenvolvido 
 💻 Como Instalar e Rodar (Uso Local Gratuito)
 Este programa foi projetado para rodar diretamente na sua máquina. Siga os passos abaixo:
 
+Salve os arquivos disponíveis.
+
 "Crie uma pasta e cole o codigo disponível"
 
 1. Preparação do Ambiente
@@ -52,3 +54,4 @@ Agora, sempre que quiser iniciar seu monitor de ataques, basta usar o ícone na 
 O software é 100% gratuito para execução local.
 
 Requer conexão com a internet para carregar os feeds de IPs em tempo real.
+
